@@ -23,8 +23,6 @@ define( 'ICSAPW_PLUGIN_DIR', untrailingslashit( dirname( ICSAPW_PLUGIN ) ) );
 
 define( 'ICSAPW_PLUGIN_URL', untrailingslashit( plugins_url( '', ICSAPW_PLUGIN ) ) );
 
-require_once ICSAPW_PLUGIN_DIR . '/includes/init.php';
-
 
 if ( ! class_exists( 'ICSAPW_Setup' ) ) {
 	require_once dirname( __FILE__ ) . '/classes/Setup.php';
